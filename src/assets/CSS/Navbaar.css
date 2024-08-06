@@ -1,0 +1,48 @@
+/* Navbar styling */
+.navbar {
+    background-color: BLACK; /* Background color of the navbar */
+    border-bottom: 1px solid BLACK; /* Border at the bottom of the navbar */
+    height: 120px;
+}
+
+.logoimg {
+    width: 140px;
+    height: 140px;
+    margin-top: 13px;
+    transition: transform 0.3s ease; /* Smooth scaling effect for logo */
+}
+
+.logoimg:hover {
+    transform: scale(1.1); /* Slightly zoom in the logo on hover */
+}
+
+.navbar-nav .nav-link {
+    color: rgb(238, 240, 247); /* Text color */
+    font-weight: 500; /* Slightly bolder text */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for color and transform */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Change text color on hover */
+    transform: translateY(-2px); /* Slightly lift the text on hover */
+}
+
+
+/* Navbar collapse transition */
+.collapse {
+    transition: height 0.3s ease; /* Smooth transition for collapse height */
+}
+
+/* Responsive adjustments (optional) */
+@media (max-width: 992px) {
+    .logoimg {
+        width: 90px; /* Smaller logo on mobile devices */
+    }
+}
+.navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+    
+  

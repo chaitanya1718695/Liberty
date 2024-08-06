@@ -1,0 +1,95 @@
+.text-center {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.span {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.text-uppercase {
+    color: #6a0dad;;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    text-transform: uppercase;
+} 
+
+.color1 {
+    width: 100%;
+    height: auto;
+}
+
+.text-reset {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: white;
+    text-decoration: none;
+}
+
+.line {
+    background-color: rgb(250, 248, 245);
+    width: 100%;
+    border: 1px solid #fffbf7;
+}
+
+.color2 {
+    color: white;
+}
+
+.text-reset1 {
+    margin-left: 0;
+    float: none;
+    margin-top: 0;
+    padding: 10px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer-container .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-links {
+    display: block;
+    margin: 5px 0;
+    color: white;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Add this to your CSS file */
+.social-icons a {
+    color: #6a0dad; /* Dark violet color for icons */
+    font-size: 1.5rem; /* Adjust icon size if needed */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.social-icons a:hover {
+    color: #a67ab8; /* Lighter shade of violet for hover effect */
+    text-decoration: none; /* Remove underline on hover */
+}
+
+/* Ensure icons are properly styled in general */
+.social-icons i {
+    font-size: 1.5rem; /* Adjust icon size if needed */
+}

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.imagec {
+    background-image: url('../assets/cartoonrobot.jpg'), linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    position: relative;
+    height: 561px;
+    background-blend-mode: overlay;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Aligns content to the bottom */
+    align-items: flex-end; /* Aligns content to the right */
+    text-align: right;
+    font-family: "montserrat",sans-serif  ;
+}
+  
+.Heading-about {
+    color: #6a0dad;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 0;
+    margin-right: 13%;
+    /* font-family: 'Times New Roman', Times, serif; */
+    text-shadow: 2px 2px 4px rgba(34, 14, 90, 0.7); /* Adds a shadow to the text */
+ 
+    letter-spacing: 1.5px; /* Increases the spacing between letters */
+    text-transform: uppercase; /* Transforms the text to uppercase */
+    /* background: linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0)); */
+     /* Adds a subtle gradient background */
+     font-family: "montserrat",sans-serif  ;
+    display: inline-block; /* Ensures padding and margin work as expected */
+}
+
+
+.AboutText {
+    color: white;
+    font-size: px;
+    line-height: 1.5;
+    padding: 10px 20px;
+    max-width: 600px;
+    margin: 0;
+    font-family: "montserrat",sans-serif  ;
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+.heading1{
+    color:  #6a0dad;
+    font-size: 30px;
+    font-weight: bold;
+    /* padding: 10px 20px; */
+    /* margin: 0; */
+    margin-left: 35%;
+    /* margin-bottom: 30px; */
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: "montserrat",sans-serif  ;
+    
+ 
+    text-transform: uppercase; /* Transforms the text to uppercase */
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0)); /* Adds a subtle gradient background */
+    display: inline-block; /* Ensures padding and margin work as expected */
+}
+
+.text2{
+   
+    color: rgb(18, 4, 4);
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 10px 20px;
+    max-width: 600px;
+    margin: 0;
+    margin-left: 27%;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: "montserrat",sans-serif  ;
+}

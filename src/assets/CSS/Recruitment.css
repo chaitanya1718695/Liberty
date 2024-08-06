@@ -1,0 +1,259 @@
+.recruitment-black {
+    background-color: rgb(6, 0, 0);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    min-height: 150vh;
+    align-items: center;
+  }
+  
+.ourint{
+    color: white;
+}
+
+.includingweb{
+    color: white;
+ 
+}
+
+  .recruitment-container {
+    margin-bottom: 20px;
+  }
+  
+  .recruitment-container p {
+    color: rgb(40, 39, 39);
+    font-size: 19px;
+    text-align: center;
+  }
+  
+  .recruitment-container h1 {
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .recruitment-container-one {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 1.5px;
+  }
+  
+  .box, .box3 {
+    flex: 1 1 25%;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #511dd4;
+    text-align: center;
+    background-color: #f0f0f0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 200px;
+    max-width: 390px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    height: 460px;
+    margin-bottom: 50px;
+  }
+  
+  .box2 {
+    border-radius: 10px;
+    flex: 1 1 25%;
+    padding: 20px;
+    border: 1px solid #5f08ac;
+    background: linear-gradient(145deg,rgb(220, 212, 234),rgb(128, 14, 180), #050109);
+    /* Red and black gradient */
+    color: white;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 200px;
+    max-width: 390px;
+    height: 500px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 50px;
+  }
+  
+ 
+
+  .box:hover, .box2:hover, .box3:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .softwaredevelopment, .Androiddeveloper {
+    color: rgb(78, 12, 135);
+    font-weight: bold;
+  }
+  
+  .overview, .lifecycle, .cli, .guiapps, .webscrapping, .kotlin, .simpleapps, .advanceapps, .cloudapps, .dataanalysis {
+    text-align: center;
+    color: black;
+  }
+  
+  .webdevinternship {
+    color: white;
+    font-weight: bold;
+  }
+  
+  .overview2, .html, .javascript, .responsivewebsite, .webapplications {
+    text-align: center;
+    color: white;
+  }
+  
+  .apply-now {
+    background-color:  rgb(78, 12, 135);
+    border: none;
+    color: white;
+    border-color: #5c05a9;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+
+
+
+  .recruitment-container-two {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .features1 {
+    color:  darkviolet;
+    font-size: 25px;
+  }
+  
+  .ourinternships {
+    color: white;
+    font-size: 34px; /* Adjusted for better visibility */
+  }
+  
+  .icons-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start; /* Align items at the start */
+    gap: 20px; /* Increased gap for better spacing */
+    margin-top: 20px;
+  }
+  
+  .icon-container {
+    flex: 1 1 22%; /* Adjusted for better spacing and responsiveness */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center; /* Center align text */
+  }
+  
+  .icon-container h4 {
+    margin: 10px 0 5px; /* Added margins for spacing */
+    font-size: 18px; /* Adjusted for better readability */
+    color: white;
+  }
+  
+  .icon-container h6 {
+    font-size: 14px; /* Adjusted font size for better readability */
+    color: rgb(95, 93, 93);
+  }
+  
+  .certificateIcon,
+  .NetWorkingIcon,
+  .HandshakeIcon,
+  .QualityIcon {
+    font-size: 70px;
+    color: darkviolet;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .icon-container {
+      flex: 1 1 45%; /* Two items per row on medium screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .icon-container {
+      flex: 1 1 100%; /* One item per row on small screens */
+    }
+  }
+  
+
+
+
+
+  /*                 new div             */
+
+
+
+.faq{
+    color: darkviolet;
+    font-size: 20px;
+    
+}
+
+
+
+
+/*                      */
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container-boxing {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f0f0f0; /* Adjust as needed */
+    height: 100vh; /* Fit to the screen height */
+    box-sizing: border-box;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between items */
+    width: 48%; /* Adjust width as needed */
+    background-color: #ffffff; /* Adjust as needed */
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional for a subtle shadow effect */
+    overflow-y: auto; /* Allows scrolling if content overflows */
+  }
+  
+  .column p {
+    margin-bottom: 10px; /* Space below the paragraph */
+  }
+  
+  .item {
+    background-color: #e0e0e0; /* Adjust as needed */
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  select {
+    margin-top: 10px; /* Space between text and dropdown */
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+  
+
+
