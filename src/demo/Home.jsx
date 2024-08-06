@@ -3,7 +3,8 @@ import "./Home.css";
 import manimage1 from "../assets/robot3.jpg";
 
 function Home() {
-  return (
+  return (                                 
+    
     <>
       <div className="home-container">
         <div className="content">
